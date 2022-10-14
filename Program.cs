@@ -35,15 +35,7 @@ while (i < 3)
         end++; begin++;
         Thread.Sleep(100);
     }
-    //Console.CursorLeft = begin;
-    Console.Write("  ");
+        Console.Write("  ");
     i++;
 }
 Console.CursorVisible = true;
-// while (str.Length <= Console.BufferWidth - 1)
-// {
-//     Console.SetCursorPosition(0, 0);
-//     str = blank + str;
-//     Console.Write(str);
-//     Thread.Sleep(200);
-// }
